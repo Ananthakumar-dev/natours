@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass scss/main.scss css/main.css -w"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/Ananthakumar-dev/natours/issues"
   },
-  "homepage": "https://github.com/Ananthakumar-dev/natours#readme",
-  "devDependencies": {
-    "saas": "^1.0.0"
-  }
+  "homepage": "https://github.com/Ananthakumar-dev/natours#readme"
 }
